@@ -14,7 +14,7 @@ How to Use it
 1. Install Visual Studio Color Theme Editor
 2. Restart Visual Studio.
 3. Click on `Theme > Customize Color > Import Theme (folder icon)`.
-4. Browse to where you downloaded the `.theme` file.
+4. Browse to where you downloaded the `.vstheme` file (easily downloaded from this github repo).
 5. Enjoy.
 
 
