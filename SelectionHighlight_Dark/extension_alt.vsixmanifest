@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+	<Metadata>
+		<Identity Id="SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa" Version="1.31" Language="en-US" Publisher="Microsoft"/>
+ 	    	<DisplayName>Highlight all occurrences of selected word</DisplayName>
+     		<Description xml:space="preserve">This extends the editor to highlight all occurrences of a selected word and place a glyph on the left margin.</Description>
+		<License>License.txt</License>
+		<InstalledByMsi>false</InstalledByMsi>
+    		<Icon>SelectionHighlightIcon.jpg</Icon>
+    		<PreviewImage>SelectionHighlight.jpg</PreviewImage>
+	</Metadata>
+	<Installation AllUsers="true">
+		<InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,13.0)"/>
+	</Installation>
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="4.0"/>
+	</Dependencies>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.ToolboxControl" Path="SelectionHighlight.dll" />
+  	</Assets>
+</PackageManifest>
