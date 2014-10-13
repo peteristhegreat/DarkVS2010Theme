@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa">
+    <Name>Highlight all occurrences of selected word</Name>
+    <Author>Microsoft</Author>
+    <Version>1.31</Version>
+    <Description xml:space="preserve">This extends the editor to highlight all occurrences of a selected word and place a glyph on the left margin.</Description>
+    <Locale>1033</Locale>
+    <License>License.txt</License>
+    <Icon>SelectionHighlightIcon.jpg</Icon>
+    <PreviewImage>SelectionHighlight.jpg</PreviewImage>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References />
+  <Content>
+    <MefComponent>SelectionHighlight.dll</MefComponent>
+  </Content>
+</Vsix>
