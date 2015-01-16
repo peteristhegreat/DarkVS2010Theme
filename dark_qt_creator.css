@@ -1,0 +1,125 @@
+/* edit the shortcut to Qt Creator and add the following:
+-stylesheet /path/to/dark_qt_creator.css
+*/
+
+QMainWindow,
+QAbstractItemView  
+/* QTreeView::branch, */
+/* QTabBar::tab */{
+ color: #EAEAEA;
+ background: #5e5e57;
+ font-size: 9pt;
+}
+ 
+QComboBox
+{
+   color: #FFFFFF;
+   background-color: #5C5C5C;
+   min-height: 15px;
+   min-width: 60px;
+   max-width: 360px;
+   padding-left: 5px;
+   padding-right: 15px;
+   border-style: solid;
+}
+
+QComboBox QAbstractItemView
+{
+   color: #000000;
+   background-color: #CFCFCF;
+   selection-background-color: #1D1D1D;
+   border-style: solid;
+}
+ 
+QHeaderView::section
+{
+   color: white;
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+								   stop:0 #616161, stop: 0.5 #505050,
+								   stop: 0.6 #434343, stop:1 #656565);
+/*    background-color: #7F7F7F; */
+   padding-left: 4px;
+   border: 1px solid #6c6c6c;
+}
+
+QTreeView
+{
+   color: #000000;
+   background-color: #B6B6B6;
+   alternate-background-color: #A5A5A5;
+   selection-color: #000000;
+   selection-background-color: #7FB3E6;
+}
+ 
+QTreeView::branch:item
+{
+   color: #714DFF;
+}
+ 
+QListView
+{
+   color: #000000;
+   background-color: #D7D7D7;
+}
+
+QWebView
+{
+   background-color: #D7D7D7;
+}
+
+QPlainTextEdit
+{
+background: #000000;
+}
+
+/* QObject[windowTitle="Object Inspector"] QTreeView
+{
+   color: #EAEAEA;
+   alternate-background-color: black;
+}
+
+QObject[windowTitle="Property Editor"] QTreeView
+{
+   color: black;
+} */
+
+QScrollBar {
+     border: none;
+     background: #333333;
+     height: 6px;
+     width: 6px;
+     margin: 0px;
+}
+ 
+QScrollBar::handle{
+     background: #494949;
+     min-width: 10px;
+     min-height: 10px;
+}
+ 
+QScrollBar::add-line,  QScrollBar::sub-line {
+     background: none;
+     border: none;
+}
+ 
+QScrollBar::add-page, QScrollBar::sub-page {
+     background: none;
+}
+
+/* QTabBar::tab:selected {
+     font: bold;
+     border-color: #9B9B9B;
+     border-bottom-color: #C2C7CB;
+ }
+ 
+QTabBar::tab:!selected {
+     margin-top: 2px;
+ } */
+
+QToolBar {
+     border-style: solid;
+     border-style: outset;
+     color: #EAEAEA;
+     background: #333333;
+     font-size: 9pt;
+}
